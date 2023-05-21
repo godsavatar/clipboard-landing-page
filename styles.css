@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin-top: 10%;
+}
+
+
+
+.title-content{
+  text-align: center;
+  padding-bottom: 90px;
+}
+.logo-div{
+    padding-bottom: 20px;
+   
+   
+}
+.title{
+    margin: 10px;
+}
+
+p{
+    color: gray;
+    line-height: 25px;
+    text-align: center;
+}
+
+.download-btn{
+    margin: 20px;
+
+}
+
+.ios-btn, .mac-btn{
+    width: 200px;
+    height: 35px;
+    border-radius: 20px;
+}
+
+.ios-btn{
+    color: white;
+    background-color: hsl(171, 66%, 44%)
+}
+.mac-btn{
+    color: white;
+    background-color:hsl(233, 100%, 69%);
+}
+
+article{
+    text-align: center;
+    padding: 10px;
+}
+
+.middle-page{
+    display: flex;
+    gap: 90px;
+    padding-top: 60px;
+    padding-bottom: 100px;
+
+}
+.middle-table{
+    margin-top: 40px;
+}
+.computer-img{
+    width: 520px;
+   
+}
+dt{
+    font-weight: bold;
+}
+dd{
+    color:gray;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    
+}
+
+
+.access-anywhere{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 25px;
+   padding-bottom: 120px;
+   
+   
+}
+.device-img{
+    display: block;
+    margin: 0 auto 0 auto;
+    max-width: 100%;
+    
+}
+
+.supercharge-title{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.company-service{
+    display: flex;
+    padding: 60px 0 60px 0;
+    list-style: none;
+    justify-content: center;
+    gap: 50px;
+    width: 150vh;
+    margin-left: 100px;
+    padding-bottom: 140px;
+    
+}
+.services{
+    text-align: center;
+
+}
+h4{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.company-logos{
+   display: flex;
+   gap: 100px;
+   justify-content: center;
+   padding-bottom: 150px;
+
+   
+}
+
+.ending-page{
+    text-align: center;
+    line-height: 60px;
+}
+
+footer{
+    background-color: gray;
+    display: flex;
+    padding-left: 90px;
+    width: 200vh;
+    height: 20%;
+}
+
+.footer-list{
+    padding-left: 90px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 30px;
+   
+}
+
+.social-logo{
+    display: flex;
+    margin-left:10em;
+}
+.social-media{
+     margin-left: 3em;
+
+}
+
+@media only screen and (min-width:321px) and (max-width:768px)
+
+{
+
+
+    .media{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        margin-left: 100px;
+        width: 321px;
+        
+    }
+    .middle-page{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .middle-table{
+        text-align: center;
+    }
+
+    .supercharge-title{
+       
+        padding-top: 50px;
+    }
+    .company-service{
+       display: flex;
+       flex-direction: column;
+       padding-top: 90px;
+       padding-right: 900px;
+
+    }
+    .company-logos{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-left: 150px;
+
+    }
+    footer{
+        background-color: hsl(201, 11%, 66%);
+        margin-top: 50px;
+        height: 400px;
+        width: 300px;
+    }
+    .social-logo{
+        display: flex;
+        margin-top: 360px;
+        margin-left: 120px;
+        position: absolute;
+        left: 20px;
+    }
+
+    .ios-btn{
+        margin-bottom: 10px;
+    }
+    .footer-logo{
+        margin-bottom: 300px;
+        padding-left: 30px;
+        width: 90px;
+       
+    }
+    .footer-list{
+        display: flex;
+        flex-direction: column;
+        margin-top: 90px;
+        position: absolute;
+        left: 140px;
+       
+    }
+
+
+
+}
